@@ -8,7 +8,7 @@ int main(int argc, char *argv[]){
  int tajneCislo;
  int hracovoCislo;
  tajneCislo = rand ()%5+1; //nahodne cislo do 1 do 5
- cout << "Zadej svuj typ na tajne cislo: ";
+ cout << "Zadej svuj typ na tajne cislo: ";//loterie
  cin >> hracovoCislo;
  if(tajneCislo == hracovoCislo) {
     cout << "Správně!" << endl;
