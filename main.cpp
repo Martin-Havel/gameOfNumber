@@ -11,7 +11,7 @@ int main(int argc, char *argv[]){
  cout << "Zadej svuj typ na tajne cislo: ";//loterie
  cin >> hracovoCislo;
  if(tajneCislo == hracovoCislo) {
-    cout << "Správně!" << endl;
- } else cout << "Neuhodl!" << endl;
+    cout << GREEN<< "Správně!" << WHITE<< endl;
+ } else cout <<RED <<"Neuhodl!"<<WHITE << endl;
 return 0;
 }
